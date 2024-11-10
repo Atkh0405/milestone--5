@@ -1,0 +1,98 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color:#f0f4f8;
+
+}
+h1 {
+    text-align: center;
+    color: #7a78df
+}
+
+form{
+    max-width: 600px;
+    margin: auto;
+    background: #ccd8e4;
+    border-radius: 8px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
+fieldset{
+    border: 2px solid #3498bd;
+    border-radius: 8px ;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+
+}
+
+legend{
+    font-weight: bold;
+    text-align: left;
+    color: #2c3e50;
+
+}
+
+label{
+    display: ruby-base;
+    margin-top: 12px;
+    color: #59b0eb;
+
+}
+
+input,textarea{
+    width: calc(100% - 2px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 2px salmon #3498bd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button{
+    display: inline-block;
+    width: 90%;
+    padding: 8px 22px;
+    background-color: rgb(46, 217, 239);
+    border-radius: 4px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Ariel Black' , serif;
+
+}
+
+button:hover {
+    background-color: #2e8dd1;
+
+}
+
+#resumeOutput {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid salmon #3498bd;
+    border-radius: 5px;
+    background-color: aliceblue;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.7);
+
+}
+
+#resumeOutput h2 {
+    color: #2c3e50;
+}
+
+.profile-image {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #3498bd;
+    box-shadow: 0 4px 6px rgba(10, 6, 210, 0.7);
+    border-radius: 400%;
+    width: 200px;
+    height: 200 px;
+    object-fit: cover;
+}

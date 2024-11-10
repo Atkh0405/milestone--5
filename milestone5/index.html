@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Resume Form</h1>
+        <p style="font-size: 15px;">Dynamic, editable resume: download as PDF and shareable link included!</p>
+
+        <form id="resumeForm">
+            <label for="profilePicture">Profile Picture</label>
+            <input type="file" id="profilePicture" accept="image/*">
+
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email">
+
+            <label for="phone">Phone</label>
+            <input type="text" id="phone" placeholder="Enter your phone number">
+
+            <label for="education">Education</label>
+            <input type="text" id="education" placeholder="Enter your education">
+
+            <label for="experience">Experience</label>
+            <input type="text" id="experience" placeholder="Enter your experience">
+
+            <label for="skills">Skills</label>
+            <input type="text" id="skills" placeholder="Enter your skills">
+
+            <label for="username">Resume URL</label>
+            <input type="text" id="username" name="username" required>
+            
+            <button type="submit">Generate Resume</button>
+        </form>
+
+        <div id="resumeOutput" class="resume-output"></div>
+    </div>
+
+
+    <script src="script.js" defer></script>
+</body>
+</html>
+ 
+
+
+
+
+ 
